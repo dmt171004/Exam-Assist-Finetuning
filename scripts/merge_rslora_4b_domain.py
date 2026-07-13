@@ -13,8 +13,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 BASE_MODEL = ROOT / "Qwen3-VL-4B-It"
-LORA_MODEL = ROOT / "outputs" / "qwen3_examassist_4b_domain_rslora_v4/checkpoint-120"
-MERGED_MODEL = ROOT / "outputs" / "qwen3_examassist_merged_4b_rslora_domain_v4"
+LORA_MODEL = ROOT / "outputs" / "qwen3_examassist_4b_domain_rslora_v5/checkpoint-120"
+MERGED_MODEL = ROOT / "outputs" / "qwen3_examassist_merged_4b_rslora_domain_v5"
 
 print(BASE_MODEL)
 print(LORA_MODEL)
