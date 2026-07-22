@@ -1,0 +1,2 @@
+method,r,alpha,learning_rate,epochs,trainable_parameters,training_time_sec,peak_gpu_memory_gb,best_eval_loss,best_perplexity
+RSLoRA,8,16,5e-05,3,16515072,1376.7608420848846,8.458643436431885,0.4841926097869873,1.6228641950781793

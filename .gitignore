@@ -32,14 +32,31 @@ qwen3.yml
 # =====================================================
 # Models
 # =====================================================
+
+# Base model
 Qwen3-VL-4B-It/
+
+# All merged models
+qwen3_examassist_merged_*/
+
+# Ignore all checkpoints
+**/checkpoint-*/
+
+# Ignore adapter weights
+**/adapter_model.safetensors
+**/adapter_config.json
+
+# Ignore tokenizer
+**/tokenizer
+**/tokenizer.json
+**/tokenizer_config.json
+
+# Ignore training state
+**/training_args.bin
+
+# Ignore any remaining model weights
 *.safetensors
 *.bin
-
-# =====================================================
-# Training outputs
-# =====================================================
-outputs/
 
 # =====================================================
 # Cache
